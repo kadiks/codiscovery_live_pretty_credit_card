@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pretty credit card</title>
+    <link href="/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-container">
+        <div class="bank">
+          <p></p>
+          <h3>Codiscovery</h3>
+        </div>
+        <form>
+          <div class="figure">
+            <input
+              placeholder="XXXX"
+              autofocus
+              maxlength="4"
+              tabindex="0"
+              name="figure-1"
+            />
+            <input
+              placeholder="XXXX"
+              maxlength="4"
+              tabindex="1"
+              name="figure-2"
+            />
+            <input
+              placeholder="XXXX"
+              maxlength="4"
+              tabindex="2"
+              name="figure-3"
+            />
+            <input
+              placeholder="XXXX"
+              maxlength="4"
+              tabindex="3"
+              name="figure-4"
+            />
+          </div>
+          <div class="bottom-info">
+            <div class="owner">
+              <input placeholder="YOUR NAME" tabindex="4" name="owner" />
+            </div>
+            <div class="expiry-date">
+              <select name="month" tabindex="5">
+                <option value="1">01</option>
+                <option value="2">02</option>
+                <option value="3">03</option>
+                <option value="4">04</option>
+                <option value="5">05</option>
+                <option value="6">06</option>
+                <option value="7">07</option>
+                <option value="8">08</option>
+                <option value="9">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+              <select name="year" tabindex="6">
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+              </select>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="/js/credit-card.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

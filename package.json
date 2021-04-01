@@ -1,0 +1,16 @@
+{
+  "name": "pretty_credit_card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "credit-card": "^3.0.2",
+    "credit-card-type": "^9.1.0"
+  }
+}

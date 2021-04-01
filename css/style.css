@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "kredit";
+  src: url("/fonts/kredit/kredit\ back.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #797979;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 15px;
+
+  box-shadow: #888 2px 1px 3px;
+}
+
+.bank {
+  margin: 2em;
+  margin-bottom: 3em;
+}
+.bank h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.bank p {
+  text-align: right;
+}
+
+input {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px rgba(0, 0, 0, 0) solid;
+  /* border: 0; */
+  outline: none;
+  border-radius: 3px;
+  font-family: kredit;
+
+  font-size: 1.2em;
+  letter-spacing: 0.2em;
+  color: white;
+
+  padding: 0.1em 0.3em;
+  /**
+    padding-top: 0.1em;
+    padding-right: 0.3em;
+    padding-bottom: 0.1em;
+    padding-left: 0.3em;
+  */
+  /* padding: 0.1em 0.3em 0.1em 0.3em; */
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+.figure input {
+  width: 4em;
+  text-align: center;
+}
+
+input:focus,
+select:focus {
+  border: 1px solid #fad21e;
+}
+
+.bottom-info {
+  padding-top: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.expiry-date select {
+  outline: 0;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  padding: 0.1em;
+  color: white;
+}
+.owner input {
+  width: 10em;
+}
